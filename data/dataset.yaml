@@ -1,0 +1,11 @@
+# VinDr-CXR dataset configuration for YOLOv8
+# All 14 original finding categories are merged into a single "Abnormality" class.
+
+path: ../data/vindr_yolo  # root directory of the prepared dataset
+train: images/train
+val: images/val
+test: images/test
+
+nc: 1
+names:
+  - Abnormality
